@@ -40,6 +40,7 @@
 		E5CAAFFA14D738E800D97A18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CAAFF914D738E800D97A18 /* CoreLocation.framework */; };
 		E5E3D1F214DA20220074DA18 /* PAWNewUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E3D1F014DA20210074DA18 /* PAWNewUserViewController.m */; };
 		E5E3D1F314DA20220074DA18 /* PAWNewUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E3D1F114DA20210074DA18 /* PAWNewUserViewController.xib */; };
+		ECFA3A6D1C16BD8300670ADE /* CChave30cm.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA3A6C1C16BD8300670ADE /* CChave30cm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,8 @@
 		E5E3D1EF14DA20210074DA18 /* PAWNewUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PAWNewUserViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E5E3D1F014DA20210074DA18 /* PAWNewUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PAWNewUserViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E5E3D1F114DA20210074DA18 /* PAWNewUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PAWNewUserViewController.xib; sourceTree = "<group>"; };
+		ECFA3A6B1C16BD8300670ADE /* CChave30cm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CChave30cm.h; sourceTree = "<group>"; };
+		ECFA3A6C1C16BD8300670ADE /* CChave30cm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CChave30cm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +222,8 @@
 				8136F91219B9EA1900F29B59 /* PAWConfigManager.h */,
 				8136F91319B9EA1900F29B59 /* PAWConfigManager.m */,
 				81E5F1281997CC4B0079429B /* PAWConstants.h */,
+				ECFA3A6B1C16BD8300670ADE /* CChave30cm.h */,
+				ECFA3A6C1C16BD8300670ADE /* CChave30cm.m */,
 				E5743F2A14E3024B004BBD5C /* Models */,
 				E5AF78F514E0C25C005B6234 /* Views */,
 				E5CAAFF614D7342200D97A18 /* Controllers */,
@@ -433,6 +438,7 @@
 				E5CAAFF414D733DC00D97A18 /* PAWWallViewController.m in Sources */,
 				E5458B6614D77BEA003BE4FF /* PAWSettingsViewController.m in Sources */,
 				E5458B6C14D8B2E3003BE4FF /* PAWWallPostCreateViewController.m in Sources */,
+				ECFA3A6D1C16BD8300670ADE /* CChave30cm.m in Sources */,
 				E5C3305014DA024F00089B64 /* PAWLoginViewController.m in Sources */,
 				E5E3D1F214DA20220074DA18 /* PAWNewUserViewController.m in Sources */,
 				81E5F12C1997DB240079429B /* PAWPostTableViewCell.m in Sources */,
