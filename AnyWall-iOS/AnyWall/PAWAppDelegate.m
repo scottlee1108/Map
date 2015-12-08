@@ -1,6 +1,6 @@
 //
 //  PAWAppDelegate.m
-//  Anywall--map
+//  Anywall--map app
 //
 //  Copyright (c) 2014 Parse Inc. All rights reserved.
 //
