@@ -8,6 +8,46 @@
 		<dict>
 			<key>facebook.com</key>
 			<dict>
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <string>fb1176895252338615</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>FacebookAppID</key>
+                <string>1176895252338615</string>
+                <key>FacebookDisplayName</key>
+                <string>Test1</string>
+                <key>NSAppTransportSecurity</key>
+                <dict>
+                    <key>NSExceptionDomains</key>
+                    <dict>
+                        <key>facebook.com</key>
+                        <dict>
+                            <key>NSIncludesSubdomains</key>
+                            <true/>
+                            <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                            <false/>
+                        </dict>
+                        <key>fbcdn.net</key>
+                        <dict>
+                            <key>NSIncludesSubdomains</key>
+                            <true/>
+                            <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                            <false/>
+                        </dict>
+                        <key>akamaihd.net</key>
+                        <dict>
+                            <key>NSIncludesSubdomains</key>
+                            <true/>
+                            <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                            <false/>
+                        </dict>
+                    </dict>
+                </dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>
 				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
